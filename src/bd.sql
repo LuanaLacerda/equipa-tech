@@ -21,7 +21,7 @@ drop table if exists doacoes;
 CREATE table doacoes (
   id serial primary key,
   nome text NOT NULL,
-  cpf_cnpj integer UNIQUE,
+  cpf_cnpj varchar(30) UNIQUE,
   data_nascimento date NOT NULL,
   telefone varchar(15) UNIQUE,
   email text NOT NULL UNIQUE,
