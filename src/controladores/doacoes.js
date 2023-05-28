@@ -18,10 +18,10 @@ const cadastrarDoacoes = async (req, res) => {
         })
 
         if (!doacao) {
-            return res.status(400).json('Usuário não foi cadastrado.')
+            return res.status(400).json('Doação não foi cadastrado.')
         }
 
-        return res.status(201).json('Usuário cadastrado com sucesso.')
+        return res.status(201).json('Doação cadastrado com sucesso.')
 
     } catch (error) {
         return res.status(400).json(error.message);
