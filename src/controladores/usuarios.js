@@ -1,4 +1,4 @@
-const knex = require('../knexfile');
+const knex = require('../conexao');
 const bcrypt = require('bcrypt');
 
 const cadastrarUsuario = async (req, res) => {
