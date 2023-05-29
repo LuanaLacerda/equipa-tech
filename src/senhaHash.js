@@ -1,1 +1,1 @@
-module.exports = 'senhaEquipaTech'
+module.exports = process.env.SENHA_HASH;
