@@ -1,8 +1,8 @@
 const knex = require('knex')({
     client: 'pg',
-    host: "postgres://wtpbaznz:H9N8nkTyRFIhMw99xP9752T4kXX7faoR@silly.db.elephantsql.com/wtpbaznz",
+    host: "postgres://wtpbaznz:L31ezxjvjIWge4Nelnd8hxnidBrJJYIS@silly.db.elephantsql.com/wtpbaznz",
     user: "wtpbaznz",
-    password: "H9N8nkTyRFIhMw99xP9752T4kXX7faoR",
+    password: "L31ezxjvjIWge4Nelnd8hxnidBrJJYIS",
     database: "wtpbaznz",
     port: "5432",
     ssl: {
