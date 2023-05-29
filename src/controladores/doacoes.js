@@ -1,4 +1,4 @@
-const knex = require('../conexao');
+const knex = require('../knexfile');
 
 const cadastrarDoacoes = async (req, res) => {
     const { nome, cpf_cnpj, data_nascimento, telefone, email } = req.body
