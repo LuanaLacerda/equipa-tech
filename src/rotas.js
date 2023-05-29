@@ -1,7 +1,7 @@
 const express = require("express");
 const rotas = express();
 const doacoes = require('./controladores/doacoes');
-const equipamentos = require('./controladores/equipamentos')
+//const equipamentos = require('./controladores/equipamentos')
 const usuarios = require('./controladores/usuarios');
 const login = require('./controladores/login');
 const verificaLogin = require('./filtros/verificaLogin');
@@ -12,7 +12,7 @@ rotas.post('/usuario', usuarios.cadastrarUsuario);
 //Cadastro doação
 rotas.post('/doacao', doacoes);
 //Cadastro equipamento
-rotas.post('/equipamento', equipamentos);
+//rotas.post('/equipamento', equipamentos);
 //login
 rotas.post('/login', login);
 
